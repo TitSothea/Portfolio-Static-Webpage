@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Shippori Antique B1", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.main{
+    max-height: 100vh;
+    width: 100%;
+}
+#logo{
+    width: 70px;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2.5rem;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.186);
+}
+.container .nav{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.container .nav ul{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+}
+.container .nav a{
+    text-decoration: none;
+}
+.container .nav ul li a{
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+
+.container .nav ul li a:hover{
+    color: red;
+    font-weight: 500;
+
+}
+.container .nav span{
+    font-size: 20px;
+    color: red;
+    font-weight: 550;
+    cursor: pointer;
+    margin-bottom: 0.7rem;
+    transition: 0.2s ease;
+}
+#more:hover{
+    color: blue;
+}
+.container .sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.container .sign-up h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: blue;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.container .sign-up h2:hover{
+    opacity: 0.6;
+}
+.container .sign-up p{
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.container .sign-up p:hover{
+    color: red;
+}
+.info{
+    
+    display: flex;
+    padding: 1.7rem 2.7rem;
+    gap: 1.7rem;
+    background-color: white;
+    transition: 0.2s ease;
+    
+}
+.info>p{
+    font-weight: 500;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+.info > p:hover{
+    cursor: pointer;
+    color: blue;
+}
+.introduce{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.introduce img{
+    position: relative;
+    height: 600px;
+    width: 80%;
+    object-fit: cover;
+    filter: blur(1px);
+}
+.introduce > h1{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    font-weight: 700;
+}
+/* Section 1 */
+
+.section-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    padding: 5rem 0;
+    gap: 1.3rem;
+    text-align: start;
+}
+.section-1 > h2 >span{
+    color: red;
+    font-weight: 600;
+}
+.section-1 h2{
+    line-height: 2.3rem;
+    font-weight: 600;
+    
+}
+.section-1 .pic1{
+    position: relative;
+    padding: 2.5rem;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+
+}
+.section-1 #img2{
+    margin-top: 3rem;
+    height: 500px;
+    width: 700px;
+    flex: 1;
+    
+}
+.section-1 #img3{
+    flex: 1;
+    object-fit: contain;
+    height: 300px;
+    margin-top: 7rem;
+    
+}
+.section-1 .box1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: yellow;
+    height: 680px;
+    width: 750px;
+}
+.footer{
+    margin-top: 3rem;
+    border-top: 2px solid rgba(128, 128, 128, 0.186);
+    padding: 6rem 9rem;
+    background-color: rgb(238, 238, 238); 
+    position: relative;
+    
+}
+.footer h1{
+    font-size: 49px;
+    margin-bottom: 3rem;
+}
+.footer .grp-3desc{
+    
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
+    font-size: 1.1rem;
+    line-height: 1.8rem; 
+    margin-bottom: 4rem;
+}
+.footer .grp-3desc .d1{
+    
+}
+.footer .grp-3desc .d2{
+    position: absolute;
+    right: 50%;
+}
+.footer .grp-3desc .d3{
+    position: relative;
+    left: 10%;
+    width: 45%;  
+}
+.footer .grp-2desc{
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    font-size: 1.1rem;
+}
+.footer .grp-2desc .d4{
+    line-height: 1.8rem;
+}
+.footer .grp-2desc .d5{
+    position: absolute;
+    right: 50%;
+    line-height: 1.8rem;
+}
+.select-nation{
+    display: flex;
+    gap: 0.2rem;
+
+}
+#bold{
+    font-weight: 600;
+}
+.icons i{
+    font-size: 2rem;
+    margin: 0.5rem 0.2rem;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.icons i:hover{
+    opacity: 0.8;
+}
+.fa-facebook{
+    color: blue;
+}
+
+.fa-youtube{
+    color: red;
+}
+select{
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    border: none;
+    background-color: rgba(174, 174, 174, 0.201);
+    font-weight: 500;
+    padding: 0.4rem;
+    width: 9rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+select:active{
+    border-radius: 1px;
+    border-color: black;
+}
+.sign{
+    display: flex;
+    justify-content: baseline;
+    margin-top: 1rem;
+}
+input{
+   
+    padding: 0.9rem;
+    width: 22rem;
+    border: none;
+    font-size: 1.2rem;
+    color: black;
+    
+}
+#su{
+    background-color: blue;
+    padding: 0.8rem 2rem;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+#su:hover{
+    opacity: 0.8;
+}
+.reserved{
+    display: flex;
+    margin-top: 8rem;
+    gap: 1rem;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.reserved p{
+    transition: 0.2s ease;
+}
+.reserved p:hover{
+    color: rgba(255, 0, 0, 0.857);
+}
